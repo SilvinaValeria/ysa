@@ -93,7 +93,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: "Montserrat";
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -600,6 +600,9 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.imagenesOpacidad:hover{
+  opacity: 0.5;
 }
 
 .img-thumbnail {
@@ -8038,7 +8041,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #7C1A35 !important;
 }
 
 .text-secondary {
@@ -8266,7 +8269,7 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 18% !important;
 }
 
 .rounded-pill {
